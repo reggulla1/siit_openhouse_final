@@ -1,0 +1,272 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+
+  .Maincontainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1 auto
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex:1 auto;
+    padding: 3%;
+  }
+  
+  .column2 {
+    width: 100%;
+    height: 100%
+  }
+
+  .navigationBar {
+    margin-bottom: 14%;
+  }
+
+  .containerNav {
+    position: relative;
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+
+  .fact {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .siitLogo {
+    height: 100%;
+  }
+
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+
+
+  .navbarIn {
+    width:100%;
+  }
+
+  svg {
+    margin: 0.5em;
+  }
+  
+  .navbar-item {
+    font-weight: 700;
+  } 
+
+  .abc {
+    text-align: center;
+  }
+  
+  .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .title,
+  .page-title {
+      font-weight: 700;
+      
+  }
+
+  .page-title2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+  .page-body {
+    
+    margin-bottom: 5rem;
+}
+
+  .title2 {
+    font-weight: 700;
+    font-size: x-large;;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .title3 {
+    font-weight: 700;
+    font-size: x-large;;
+    
+    
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .top {
+    margin-top: 15px;
+  }
+
+  .top2 {
+    margin-top: 5px;
+    
+  }
+
+
+  .button2 {
+    position: relative;
+    background-color: rgb(99, 6, 128);
+    border: 2px solid rgb(183, 8, 236);
+    margin: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 30px 30px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button3 {
+    position: relative;
+    background-color: rgb(99, 6, 128);
+    border: 2px solid rgb(183, 8, 236);
+    margin-right: 100px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 30px 30px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button4 {
+    position: relative;
+    background-color: rgb(99, 6, 128);
+    border: 2px solid rgb(183, 8, 236);
+    margin-right: 70px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 30px 30px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .button5 {
+    position: relative;
+    background-color: #5D3772;
+    border: 2px solid #FFFFFF;
+    border-color: transparent;
+    margin: 0 30px;
+    font-size: 30px;
+    color: #FFFFFF;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+
+  
+
+  .button2:hover {
+    background-color: rgb(199, 68, 216);
+    color: white;
+  }
+
+  .button3:hover {
+    background-color: rgb(199, 68, 216);
+    color: white;
+  }
+
+  .button4:hover {
+    background-color:  rgb(199, 68, 216);
+    color: white;
+  }
+
+  .button5:hover {
+    background-color:  rgb(199, 68, 216);
+    color: white;
+  }
+  
+  .button2:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  p.round2 {
+    border: 10px solid #EF6C00;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+
+  .generalButton {
+    width: 40%;
+  }
+ 
+   
+  
+
+.buttonWidth {
+  width: 50%;
+}
+  
